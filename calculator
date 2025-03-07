@@ -1,11 +1,16 @@
 Console.WriteLine("Umar Amir");
 Console.WriteLine("24-ST-012");
 using System;
+ Division
+
+
+ Multiplication
 class Program
 {
     static void Main()
     {
         // Declare two variables to store the numbers
+ Division
         double number1, number2, quotient;
 
         // Get input from the user
@@ -31,3 +36,22 @@ class Program
         }
     }
 }
+
+        int number1, number2, product;
+
+        // Get input from the user
+        Console.WriteLine("Enter the first number: ");
+        number1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Enter the second number: ");
+        number2 = Convert.ToInt32(Console.ReadLine());
+
+        // Multiply the two numbers
+        product = number1 * number2;
+
+        // Display the result
+        Console.WriteLine("The product of {0} and {1} is: {2}", number1, number2, product);
+    }
+}
+
+ Multiplication
