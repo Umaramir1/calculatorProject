@@ -1,7 +1,6 @@
 Console.WriteLine("Umar Amir");
 Console.WriteLine("24-ST-012");
 using System;
-
 class Program
 {
     static void Main()
